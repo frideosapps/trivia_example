@@ -1,6 +1,6 @@
 # Trivia game example
 
-A simple trivia game using the [frideos](https://pub.dartlang.org/packages/frideos) package.
+A simple trivia game built with Flutter and the [frideos](https://pub.dartlang.org/packages/frideos) package.
 
 **features**:
 
