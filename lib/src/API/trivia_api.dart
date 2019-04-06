@@ -77,7 +77,7 @@ class TriviaAPI implements QuestionsAPI {
     if (response.statusCode == 200) {
       final jsonResponse = convert.jsonDecode(response.body);
       final result = (jsonResponse['results'] as List)
-          .map((category) => QuestionModel.fromJson(category));
+          .map((question) => QuestionModel.fromJson(question));
 
       questions.value = result
           .map((question) => Question.fromQuestionModel(question))

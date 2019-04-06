@@ -33,7 +33,7 @@ class MockAPI implements QuestionsAPI {
     final jsonResponse = convert.jsonDecode(json);
 
     final result = (jsonResponse['results'] as List)
-        .map((category) => QuestionModel.fromJson(category));
+        .map((question) => QuestionModel.fromJson(question));
 
     questions.value =
         result.map((question) => Question.fromQuestionModel(question)).toList();
