@@ -109,8 +109,8 @@ class AppState extends AppStateModel {
     }
   }
 
-  void _loadQuestions() {
-    api.getQuestions(
+  Future _loadQuestions() async {
+    await api.getQuestions(
         questions: questions,
         number: int.parse(questionsAmount.value),
         category: categoryChosen.value,
