@@ -8,19 +8,8 @@ import 'src/models/theme.dart';
 
 void main() => runApp(App());
 
-class App extends StatefulWidget {
-  @override
-  _AppState createState() => _AppState();
-}
-
-class _AppState extends State<App> {
-  AppState appState;
-
-  @override
-  void initState() {
-    super.initState();
-    appState = AppState();
-  }
+class App extends StatelessWidget {
+  final appState = AppState();
 
   @override
   Widget build(BuildContext context) {
