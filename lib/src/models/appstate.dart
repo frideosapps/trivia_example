@@ -81,7 +81,7 @@ class AppState extends AppStateModel {
       StreamTransformer<String, String>.fromHandlers(handleData: (str, sink) {
     if (str.isNotEmpty) {
       final time = int.tryParse(str);
-      if (time > 3 && time < 90) {
+      if (time >= 3 && time <= 90) {
         sink.add(str);
       } else {
         sink.addError('Insert a value from 3 to 90 seconds.');
