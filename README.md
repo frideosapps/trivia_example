@@ -2,6 +2,8 @@
 
 A simple trivia game built with Flutter and the [frideos](https://pub.dartlang.org/packages/frideos) package.
 
+Article on Medium.com here: https://medium.com/flutter-community/flutter-how-to-build-a-quiz-game-596d0f369575
+
 **features**:
 
 - State management
