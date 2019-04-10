@@ -6,7 +6,6 @@ import '../models/models.dart';
 import '../models/question.dart';
 import '../models/trivia_stats.dart';
 
-const questionTime = 10000;
 const refreshTime = 100;
 
 class TriviaBloc {
