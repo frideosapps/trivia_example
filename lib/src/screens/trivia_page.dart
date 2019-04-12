@@ -13,13 +13,6 @@ import '../widgets/question_widget.dart';
 class TriviaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return TriviaContainer();
-  }
-}
-
-class TriviaContainer extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
     final bloc = AppStateProvider.of<AppState>(context).triviaBloc;
 
     return ValueBuilder<TriviaState>(
