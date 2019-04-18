@@ -22,6 +22,7 @@ Article on Medium.com here: https://medium.com/flutter-community/flutter-how-to-
 
 
 ## Screenshots
+![AnimatedGif](screenshots/anim.gif)
 ![Screenshot](screenshots/1.png)
 ![Screenshot](screenshots/2.png)
 ![Screenshot](screenshots/3.png)
